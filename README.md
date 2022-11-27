@@ -56,7 +56,7 @@ Creacion de sentencias DDL y DML en una base de datos online
 _Temas tratados:_
 - SQL
 
-## DataBaseConnection
+## ConexionBaseDatos
 
 Consulta y Manipulacion de datos (DDL y DML) con .NET implementando ADO.NET
 
