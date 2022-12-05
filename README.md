@@ -65,6 +65,16 @@ _Temas tratados:_
 - SQL
 - API
 
+## WebAPI
+
+generacion de endpoints para integrar APIs a las clases generadas
+
+_Temas tratados:_
+- APIs y endpoints
+- CRUD
+- Swagger - Postman
+- ADO.NET
+
 ## Requisitos
 
 Tener instalado [Visual Studio](https://visualstudio.microsoft.com/)
