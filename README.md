@@ -8,6 +8,8 @@ Tener instalado [Visual Studio](https://visualstudio.microsoft.com/), [Visual St
 
 ## Trabajo Final
 
+![](https://github.com/matiasgays/sistema-gestion/blob/master/assets/ezgif.com-gif-maker.gif?raw=true)
+
 ### DB
 
 Abrir Microsoft SQL Server e ingresar la siguiente informacion:
