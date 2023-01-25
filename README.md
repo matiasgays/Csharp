@@ -1,64 +1,46 @@
-# C#
+# C# API Project
 
-Repositorio correspondiente al curso de C# de CoderHouse
+This project is a back-end API built with C# that connects the front-end with the back-end using Microsoft SQL Server as the database. It includes features such as user authentication, data validation and CRUD operations.
 
-## Requisitos
+## Getting Started
 
-Tener instalado [Visual Studio](https://visualstudio.microsoft.com/), [Visual Studio Code](https://code.visualstudio.com/) y [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+These instructions will help you set up the project on your local machine for development and testing purposes.
 
-## Trabajo Final
+### Prerequisites
+
+- Visual Studio 
+- .NET Core SDK
+- SQL Server Management Studio
+
+### Installing
+
+1. Clone the repository
+2. Open the project `WebAPI.sln` in Visual Studio
+3. Build the solution to restore the necessary packages
+4. Open Microsoft SQL Server with the following credentials:
+
+        Server Name:`sql.bsite.net\MSSQL2016`
+        Login: `matias_c#`
+        Password: `TWG3zHLuFZ8fc@9`
+5. Run the project to start the development server
+
+## Built With
+
+- C#
+- .NET Core
+- Microsoft SQL Server
+- Entity Framework for data access
+- Swagger for API documentation
+
+## Usage
 
 ![](https://github.com/matiasgays/sistema-gestion/blob/master/assets/ezgif.com-gif-maker.gif?raw=true)
 
-### DB
+## Authors
 
-Abrir Microsoft SQL Server e ingresar la siguiente informacion:
+* **Your Name** - *Initial work* - [Your GitHub Profile](https://github.com/username)
 
-Server Name:`sql.bsite.net\MSSQL2016`
+## License
 
-Login: `matias_c#`
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-Password: `TWG3zHLuFZ8fc@9`
-    
-*Base de datos creada en [Freeasphosting](https://freeasphosting.net/)*
-
-### Front_End
-
-Abrir la carpeta con Visual Studio Code y correr el programa con la sentencia:
-
-```
-npm start
-```
-
-### Back_End
-
-
-Abrir el archivo `WebAPI.sln` con Visual Studio y correr el programa. 
-
-#### API y EndPoints
-
-| API                           |Metodo  |   End point          |
-| :---------------------------- | :----- | :------------------- |
-| Inicio de sesion              | GET    | User/LogIn?username={userName}&password={password}                                 |
-| Traer usuarios                | GET    | User                 |
-| Traer usuario                 | GET    | User/{userName}      |
-| Nuevo usuario                 | POST   | User                 |
-| Actualizar usuario            | PUT    | User                 |
-| Eliminar usuario              | DELETE | User                 |
-| Traer productos               | GET    | Product              |
-| Traer producto                | GET    | Product/{userId}     |
-| Nuevo producto                | POST   | Product              |
-| Actualizar producto           | PUT    | Product              |
-| Eliminar producto             | DELETE | Product              |
-| Traer productos vendidos      | GET    | ProductSold          |
-| Traer producto vendido        | GET    | ProductSold/{id}     |
-| Nuevo producto vendido        | POST   | ProductSold          |
-| Actualizar producto vendido   | PUT    | ProductSold          |
-| Eliminar producto vendido     | DELETE | ProductSold          |
-| Traer ventas                  | GET    | Sale                 |
-| Traer venta                   | GET    | Sale/{id}            |
-| Nueva venta                   | POST   | Sale                 |
-| Actualizar venta              | PUT    | Sale                 |
-| Eliminar venta                | DELETE | Sale                 |
-
-*Validar con Swagger/Postman*
