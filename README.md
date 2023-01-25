@@ -26,11 +26,11 @@ These instructions will help you set up the project on your local machine for de
 
 ## Built With
 
-- C#
-- .NET Core
-- Microsoft SQL Server
-- Entity Framework for data access
-- Swagger for API documentation
+![C#](https://img.shields.io/badge/C%20Sharp-239120?style=for-the-badge&logo=C%20Sharp&logoColor=white)&nbsp;
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.NET&logoColor=white)&nbsp;
+![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=Microsoft%20SQL%20Server&logoColor=white)&nbsp;
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=black)&nbsp;
+![]()&nbsp;
 
 ## Usage
 
