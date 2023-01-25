@@ -38,7 +38,9 @@ These instructions will help you set up the project on your local machine for de
 
 ## Authors
 
-* **Your Name** - *Initial work* - [Your GitHub Profile](https://github.com/username)
+**Matias Gays** - *IT Developer* - 
+
+<a href="https://github.com/matiasgays"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/></a>
 
 ## License
 
